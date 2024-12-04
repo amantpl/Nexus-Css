@@ -1,0 +1,26 @@
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+
+ul{
+    color: blue;
+    background-color: brown;
+}
+
+/* Select any class name */
+/* Then to select any class you need to put (.) in front of any particular class. */
+
+.first{
+    background-color: blue;
+}
+
+.second{
+    background-color: blueviolet;
+}
+
+/* To assign any property to any tag having unique id you need to put (#) in front of it. */
+
+#first{
+    background-color: coral;
+}

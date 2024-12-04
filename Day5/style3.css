@@ -1,0 +1,12 @@
+.circle{
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20vh;
+}
+*{
+    margin: 0px;
+}
+/* margin auto --- align the element at the center horizontally */

@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+article{
+    background-color: white;
+}
+
+.css-article h2{
+    font-size: 2em;
+    color: blue;
+}
+
+.css-article h3{
+    font-size: 2em;
+    color: rgb(240, 132, 150);
+}
+
+.css-article p{
+    color: #555;
+}
+
+.js-article h2{
+    font-size: 2em;
+    color: red;
+}
+
+.js-article h3{
+    color: rgb(255, 146, 164);
+}
+
+.js-article p{
+    color: #333;
+}
+
+.responsive-article h2{
+    color: purple;
+}
+
+.responsive-article p{
+    color: #444;
+}
+
+table{
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+th{
+    text-align: left;
+    background-color: #007BFF;
+    color: white;
+}
+
+td{
+    color: #333;
+}
+
+footer{
+    color: #333;
+    font-weight: bold;
+    background-color: #ccc;
+}

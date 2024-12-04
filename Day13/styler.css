@@ -1,0 +1,38 @@
+.container{
+    background-color: aqua;
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    /* box-shadow: 25px 20px ; horizontal and vertical is added */
+    /* box-shadow: 25px 20px red ; color is added */
+    /* box-shadow: 25px 20px 10px red ; blur is added */
+    /* box-shadow: 25px 20px 10px 200px red; spread radius is 200px */
+    /* box-shadow: 0px 0px 5px 20px black; applied at all four edges */
+    box-shadow: inset 10px 10px red;
+    /* inset just push the shadow inside-wards */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+/* in box shadow first one is horizontal second one is vertical if you write positve then the shadow will come in the right side and vice versa. */
+/* third value can be blur and fourth value can be color */
+
+.box:hover{
+    background-color: black;
+    width: 100px;
+}
+
+/* shorthand notation for transition ? */
+/* text shadow is homework */

@@ -1,0 +1,5 @@
+
+/* It will not work because div is a block level element and it cannot be the child of p tag it can contain only inline elements.*/
+p>div{
+    color: red;
+}

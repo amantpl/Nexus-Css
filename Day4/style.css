@@ -1,0 +1,31 @@
+h2{
+    background-color: aqua;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    width: 50vw;
+    height: 600px;
+    border-radius: 15px;
+    /* shortcuts or short hand notation*/
+    border: 5px brown solid;
+}
+ul{
+    background-color: pink;
+}
+p{
+    background-color: tomato;
+    border-width: 6px;
+    border-color: black;
+    padding: 15px;
+
+}
+h4{
+    background-color: brown;
+    border-left-width: 12px;
+    border-left-color: red;
+    border-left-style: solid;
+    border-style: solid;
+    border-width: 10px 20px;
+    border-style: solid;
+    border-color: green;
+}

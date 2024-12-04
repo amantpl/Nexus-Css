@@ -1,0 +1,34 @@
+
+
+h1{
+    background-color: beige !important;
+}
+/* morst priortize if you add !important */
+#first_id{
+    background-color: aqua;
+}
+
+.first{
+    background-color: blue;
+}
+
+h1[draggable]{
+    background-color: red;
+}
+
+body h1{
+    background-color: rgb(20, 82, 61);
+}
+
+body>h1{
+    background-color: blueviolet;
+}
+/* order<specificity<type<important */
+
+/* specificity priority order = id>attribute>class>child and decendant>element and group element */
+/* you can check in this code also by commenting out the codes */
+
+html{
+    font-family: "Agdasima", sans-serif;
+
+}

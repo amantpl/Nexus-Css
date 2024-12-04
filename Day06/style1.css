@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+main{
+    margin-top: 220px;
+}

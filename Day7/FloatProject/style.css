@@ -1,0 +1,16 @@
+img{
+    height: 300px;
+    width: auto;
+    float: right;
+}
+*{
+    margin: 0px;
+}
+.img1{
+    height: 300px;
+    width: auto;
+    float: right;
+    clear: right;
+}
+
+/* image tag is inline but then also we are able to vary its height and width is't is concerning */

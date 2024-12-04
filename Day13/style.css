@@ -1,0 +1,57 @@
+/* h1{
+    color: orange;
+    text-align: justify;
+    background-color: aqua;
+} */
+
+/* text-align= left,right,center,justify */
+
+/* .container{
+    background-color: aqua;
+    text-align: center;
+}
+
+h1{
+    background-color: pink;
+}
+
+p{
+    background-color: yellow;
+}
+
+button{
+    background-color: red;
+
+} */
+
+/* text align will not align the block element to the center but the content inside it, but it will align the inline element to the center like it does in the case of button */
+
+/* p{
+    background-color: olivedrab;
+    text-align-last: left;
+} */
+
+h1{
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+
+    text-decoration-line: line-through;
+    /* overline, underline, line-through */
+
+    text-decoration-color: red;
+    text-decoration-style: dotted ;
+
+    text-transform: lowercase;
+    /* capatalize,lowercase,uppercase */
+}
+
+span{
+    /* vertical-align: super; sub;  */
+}
+
+/* direction means to read from ltr or rtl */
+
+p{
+    text-indent: 100px;
+    letter-spacing: 20px;
+}

@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    background-color: aquamarine;
+    height: 1000px;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+
+}
+
+/* flex items */
+/* order: it defines the order of the element */
+/* Default value of order is 0 */
+/* Flex grow uses the extra space left inside the container */
+/* flex grow default value is always 0 */
+/* flex grow property defines how much a flex item sholud grow relative to the other items when extra space is available inside the conatainer */
+/* formula for the space of a specified container is equal to ((flex grow)*(total space))/sum of flex grow */
+/* flex grows around the main axis */
+/* flex shrink property defines how much a flex item should shrink relative to the other items when the container is too small to fit all the items inside the container */
+/* flex shrink calculation = first multiply all the flex items with their flex shrink value then sum up all the values followed by the multiplication of the individual multiplied value and shrink length of the container followed by the division by total summed up value */
+/* flex basis sets the initial main size of the flex item before any extra space is distributed or the item is allowed to grow or shrink. */
+/* align self works for particular flex item it works around the cross axis */
+/* short hand property = flex: [flex grow][flex shrink][flex basis] */
+
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+}
+
+.box1{
+    background-color: red;
+    /* order: 2; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    /* align-self: end; */
+    /* flex-basis: 100px; */
+    /* flex: 8 3 0 ; */
+    /* align-self: end; */
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: bisque;
+    /* order: -1; */
+    /* flex-grow: 3; */
+}
+
+.box4{
+    background-color: yellow;
+}
+

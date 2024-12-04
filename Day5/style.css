@@ -1,0 +1,29 @@
+.first{
+    background-color: yellow;
+    height: 100px;
+    width: 20px;
+    margin: 20px;
+}
+
+.second{
+    /* display: inline; */
+    background-color: aqua;
+    height: 100px;
+    width: 20px;
+    margin: 20px;
+}
+
+span{
+    display: inline-block;
+    /* display: block; */
+    background-color: green;
+    height: 100px;
+    width: 20px;
+    margin: 20px;
+}
+
+/* we can give height width margin to a block level element */
+/* we cannot give height width to a inline element but we can give the margin to a inline element but vertical margin is not visible in case of inline element */
+/* we can make inline element to a block element by using display attribute */
+/* we can make block element to a inline element by using display attribute */
+/* inline block property in which we can change the height width of the element*/

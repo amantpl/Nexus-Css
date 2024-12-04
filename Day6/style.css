@@ -1,0 +1,46 @@
+.container{
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top: 150px;
+    height: 500px;
+    height: 5000px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+    position: sticky;
+    /* top: 40px;
+    left: 20px; 
+    right: 40px;
+    bottom: 20px; 
+    z-index: -1;   */
+    left: 10px;
+    
+    
+}
+
+/* position static no change in position */
+/* position relative */
+/* position absolute */
+/* position fixed */
+/* position sticky */
+/* homwwork is it necessary to mention top in sticky and if not then by not mentioning it why it is not working */
+/* when we write position absolute then the box moves respective to the parent element postion and if no parent has given the position then it is decided by viewport */
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: yellow;
+}

@@ -1,0 +1,53 @@
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    flex-wrap: wrap-reverse;
+    /* align-content: center; */
+}
+
+/* flex direction will identify by main axis */
+/* row: horizontal is main axis */
+/* column: vertical is main axis */
+/* row reverse and column reverse same as row and column but just in reverse order. */
+
+
+/* justify content: start, end, center, space-around, space-between, space-evenly */
+/* justify content works around the main axis */
+
+/* align items works around cross axis */
+/* align items: start, end, stretch, baseline*/
+/* align items: stretch works when height is not given to the div */
+
+/* flex-wrap: nowrap(by default), wrap-reverse */
+
+/* how to center the div:- justify content set to center and align items set to center */
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px black solid;
+
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: bisque;
+}
+
+.box4{
+    background-color: yellow;
+}
+
+.first{
+    font-size: 45px;
+}

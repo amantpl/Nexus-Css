@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color:antiquewhite;
+}
+.img1{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
+.image1{
+    position: relative;
+}
+.restaurant{
+    position: relative;
+}
+.restaurant_name{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rating{
+    background-color: green;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    border-radius: 8px;
+    padding: 1px;
+    color: white;
+}
+
+.box{
+    display: inline-block;
+}
+
+.container{
+    display: inline-block;
+    border: 5px antiquewhite solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.paisa{
+    color: gray;
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+}
+
+.food{
+    position: relative;
+}
+
+.food_name{
+    color: gray;
+    margin-top: 10px;
+}
+.location{
+    position: relative;
+}
+
+.location_name{
+    color: gray;
+    margin-top: 10px;
+}
+
+.distance{
+    position: absolute;
+    margin-top: 10px;
+    right: 0px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.off{
+    background-color: brown;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    color: white;
+    font-size: 25px;
+    opacity: 0.8;
+    margin-left: 10px;
+    bottom: 10px;
+}
+
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+.img3{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.head{
+    background-color: white;
+}
+
+.zomato{
+    color: rgb(130, 9, 9);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.searching{
+    position: relative;
+    bottom: 10px;
+    height: 35px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    color: gray;
+    width: 55px;
+    height: 50px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.second{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.dine1{
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+}
+
+.dine2{
+    color: gray;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.delivery1{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.delivery2{
+    color: gray;
+    position: relative;
+    bottom: 40px;
+}
+
+.nightlife1{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.nightlife2{
+    color: gray;
+    position: relative;
+    bottom: 40px;
+}
+
+.third{
+    background-color: gray;
+    height: 1000px;
+    width: 1000px;
+}
+
+

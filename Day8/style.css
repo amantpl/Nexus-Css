@@ -1,0 +1,42 @@
+.Box{
+    display: inline-block;
+
+}
+.img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rating{
+    background-color: rgb(7, 212, 7);
+    border-radius: 20px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    color: white;
+}
+*{
+    margin: 0px;
+}
+.restaurant{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.price{
+    position: absolute;
+    
+}

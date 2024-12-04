@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    align-items: center;
+    
+}
+
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: movement;
+    animation-duration: 3s;
+    position: relative;
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+
+    /* how much time in number it should animate */
+    animation-iteration-count: 5;
+
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate-reverse;
+
+    border-radius: 50%;
+}
+
+/* Homework animation fill mode in w3 schools */
+
+@keyframes movement {
+
+    /* initial postion */
+    from{
+        /* top: 0px;
+        left: 0px; */
+
+        transform: translate(0vw,0hv);
+
+        /* only for y direction we can use translatey */
+    }
+    /* final position */
+    to{
+        /* top: 0px;
+        left: 800px; */
+
+        /* no need to use positon relative */
+        transform: translate(30vw,50vh);
+    }
+}
+
+@keyframes movement {
+    0%{
+        transform: translate(0vw,0vh);
+    }
+    25%{
+        transform: translate(30vw,-30vh);
+    }
+    50%{
+        transform: translate(60vw,0vh);
+    }
+    75%{
+        transform: translate(30vw,30vh);
+    }
+    100%{
+        transform: translate(0vw,0vh);
+    }
+}
+
+/* animation shorthand property homework mdn docs */

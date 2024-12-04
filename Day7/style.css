@@ -1,0 +1,36 @@
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.container{
+    background-color: aqua;
+}
+
+.box1{
+    background-color: red;
+    position: relative;
+    left: 250px;
+    z-index: 7;
+}
+/* default z-index is auto for all */
+/* element with heigher z index will place on the top but to apply this position should not be static */
+.box2{
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+
+.box3{
+    background-color: blue;
+    position: relative;
+    z-index: 2;
+}
+
+.box4{
+    background-color: yellow;
+}

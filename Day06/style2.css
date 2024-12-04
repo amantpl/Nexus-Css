@@ -1,0 +1,46 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-weight: bold;
+    border: 10px red dashed;
+    /* border-style: solid; */
+    /* border-width: 0px; */
+    padding: 10px;
+}
+body{
+    background: linear-gradient(skyblue,red,lightgreen,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(Virat.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: larger;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+*{
+    margin: 0px;
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    padding: 30px;
+    margin-top: 20px;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: red;
+}

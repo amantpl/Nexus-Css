@@ -1,0 +1,31 @@
+h1{
+    color: rgba(13,220,180,1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+/* here a stads for alpha which ranges between 0 to 1 it can take decimal values also. */
+h3{
+    color: #2d34f5ff;
+}
+/* Change by rgb */
+/* 0-255 */
+/* to use hexadecimal color format you need to put # symbol first then similar to the above */
+/* in above the first two charecters represent the red color, next two charecters represent the green color and the remaining two charecters represent blue color */
+/* here also we can add the alpha value which ranges form 00 to ff */
+
+p{
+    color: hsla(200, 10%, 12%,1);
+}
+/* Basically the full form of hsl is hue saturation lightness in which range of hue is from 0-255 range for saturation is 0%-100% and range of lightness is 0%-100%. */
+/* here also we can use alpha ranges between 0 to 1*/
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhzKSJPkVfrXd5QR_2CwzJoLWcxSRqt5I2Q&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* in font size you can use px, em,rem */
+/* em , relative to parent font size*/
+/* rem, relative to html font size */
+/* % , relative to parent font size */

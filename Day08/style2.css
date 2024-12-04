@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color:antiquewhite;
+}
+.img1{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
+.image1{
+    position: relative;
+}
+.restaurant{
+    position: relative;
+}
+.restaurant_name{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rating{
+    background-color: green;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    border-radius: 8px;
+    padding: 1px;
+    color: white;
+}
+
+.box{
+    display: inline-block;
+}
+
+.container{
+    display: inline-block;
+    border: 5px antiquewhite solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.paisa{
+    color: gray;
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+}
+
+.food{
+    position: relative;
+}
+
+.food_name{
+    color: gray;
+    margin-top: 10px;
+}
+.location{
+    position: relative;
+}
+
+.location_name{
+    color: gray;
+    margin-top: 10px;
+}
+
+.distance{
+    position: absolute;
+    margin-top: 10px;
+    right: 0px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.off{
+    background-color: brown;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    color: white;
+    font-size: 25px;
+    opacity: 0.8;
+    margin-left: 10px;
+    bottom: 10px;
+}

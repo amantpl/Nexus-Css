@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    gap: 1rem;
+    background-color: black;
+    padding: 4rem;
+    display: grid;
+    justify-content: right;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px); */
+    /* grid-template-columns: repeat(Auto-fill,minmax(100px,200px)); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: right;
+    /* align-items: center; */
+    /* place-items: center end; */
+    /* place-items: align-items justify-content */
+}
+
+/* Difference between autofit and autofill */
+
+.Box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 2rem;
+    color: black;
+}
+ 
+.Box2{
+    justify-self: start;
+    align-self: flex-start;
+}
