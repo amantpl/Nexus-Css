@@ -7,8 +7,18 @@
 body{
     height: 100vh;
     width: 100vw;
+    background-color: black;
 }
 
+h1{
+    color: white;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    
+}
 .container{
     height: 100%;
     background-color: black;
@@ -16,6 +26,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 100px;
     
 }
 
@@ -58,6 +70,7 @@ body{
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-delay: 1s;
 }
 
 .venus{
@@ -75,6 +88,7 @@ body{
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-delay: 2s;
 }
 
 .mars{
@@ -92,6 +106,7 @@ body{
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-delay: 1.5s;
 }
 
 .earth{
@@ -109,6 +124,7 @@ body{
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-delay: 1.23;
 }
 
 .jupiter{
@@ -126,9 +142,10 @@ body{
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
 
-/* .saturn{
+.saturn{
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -137,28 +154,38 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0;
-    left: 0;
-} */
+    top: -30px;
+    left: -30px;
+    animation: saturn;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
 
 /* .uranus{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: linear-gradient(to right, blue, green);
+    background: linear-gradient(to right, blue, aqua);
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -100;
+    left: -400;
+    animation: uranus;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
 } */
 
 /* .neptune{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-color: blue;
+    background-color:aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,6 +250,25 @@ body{
     }
     to{
         transform: rotate(360deg) translate(270px);
+    }
+}
+
+@keyframes saturn {
+    from{
+        transform: rotate(0deg) translate(370px);
+    }
+    to{
+        transform: rotate(360deg) translate(370px);
+    }
+}
+
+
+@keyframes uranus {
+    from{
+        transform: rotate(0deg) translate(450px);
+    }
+    to{
+        transform: rotate(360deg) translate(450px);
     }
 }
 
@@ -293,5 +339,19 @@ body{
     position: absolute;
     top: -250px;
     left: -250px;
+}
+
+
+.orbital6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+    width: 730px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    top: -345px;
+    left: -345px;
 }
 
